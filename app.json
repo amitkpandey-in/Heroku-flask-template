@@ -1,0 +1,16 @@
+{
+  "name": "Equity Analytics App by Amit",
+  "description": "A simple app to help in order managment and trade in stocks",
+  "keywords": [
+    "flask",
+    "python",
+    "stock"
+  ],
+  "repository": "https://github.com/amitkpandey-in/equity-analytics-amit",
+  "scripts": {
+    "postdeploy": "python -c 'from app import db; db.create_all()'"
+  },
+  "addons": [
+    "heroku-postgresql"
+  ]
+}
